@@ -1,0 +1,34 @@
+body{
+    background-image: url("Background.jpg");
+}
+button {
+    position: fixed;
+    width: 110px;
+    height: 50px;
+
+    color: rgba(255, 255, 255, 0.137);
+    background-color: rgba(63, 63, 63, 0.24);
+    border: none;
+    border-radius: 100000000%;
+    padding: 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    
+    transition: all 1s;
+    color:rgb(70, 70, 70);
+    width: 100px;
+    height: 100px;
+}
+button:hover {
+    background-color: rgba(70, 70, 70, 0.829);
+    color:black;
+    width: 1000px;
+    height: 1000px;
+    transition: all 1s;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
